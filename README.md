@@ -1,51 +1,50 @@
-# ForumHub
 
-&nbsp;
-Entrega do Challenge final do curso Oracle e Alura - ForumHub
-Quero agradecer a essas instituições pela oportunidade dada para realização dessa API REST backend em 
-Java durante o meu aprendizado!
 
-&nbsp;
-Aqui, é possível realizar o cadastro de usuários, com a validação token JWT e com criptografia de senhas
-com o Bcrypt. Com conexão de banco de dados MySql.
+# 💻 Sobre o projeto
 
-&nbsp;
-Cadastrar tópicos onde somente o próprio criador poderá realizar todas as alterações, incluise a de exclusão,
-restando para os demais apenas a consulta desse do tópico.
+Projeto Desafio Alura/Oracle.
 
-&nbsp;
-Também é possível realizar cadastro de Cursos, e aplicar uma resposta pra cada tópico!
+O projeto de topicos é um forum de duvidas ficticio sobre assuntos de programação. 
+O projeto deve possuir a criaçao de topicos, tanto a exclusão dos topicos quanto a editação só poderar ser feita pelo criador.
 
-&nbsp;
-abaixo é demonstrado parte das funcionalidades dessa API
+Projeto contara com um cadastro de usuarios, usando criptografia com token JWT, com data de expiração de 3h para ter acesso as requisições.
+Todos os usuarios cadastrados serão salvos no banco de dados com senhas criptografadas em algoritmo HMAC256.
 
-&nbsp;
-##
-Lista dos endpoints do projeto
-&nbsp;
-![image](https://github.com/devxxx-dias/ForumHub/assets/104696883/9e1ddad7-c418-43d4-ab9c-43614fb49cfe)
-&nbsp;
-##
-Link para teste no Swagger localmente
-&nbsp;
-![image](https://github.com/devxxx-dias/ForumHub/assets/104696883/e94fc589-d7b5-4162-b13c-e348c9356be4)
-###http://localhost:8080/swagger-ui/index.html
-&nbsp;
+API Rest com Spring-boot e Spring-security.
 
-##
-Listagem de Cursos
-&nbsp;
-![image](https://github.com/devxxx-dias/ForumHub/assets/104696883/553868f8-1c0f-4f33-b097-cb0179c8c3a0)
-&nbsp;
 
-##
-Listagem dos Topicos cadastrados
-&nbsp;
-![image](https://github.com/devxxx-dias/ForumHub/assets/104696883/16de39d8-d0e2-4763-b591-f56b4f5bf473)
-&nbsp;
+## ⚙️ Funcionalidades
 
-##
-Listagem das Respostas por tópicos
-&nbsp;
-![image](https://github.com/devxxx-dias/ForumHub/assets/104696883/32b99a07-e8b4-4c24-80b4-dc0e9e5c0cb8)
-&nbsp;
+- [x]  CRUD de Topicos;
+- [ ]  CRUD de usuarios(em breve);
+- [x]  Criaçao de topicos;
+- [ ]  Resposta do topico(em breve);
+
+
+## 📄 Documentação
+
+A documentação das funcionalidades da aplicação pode ser acessada neste link: <a href="https://trello.com/b/tp41rdTo/forumduvidas">Trello</a>
+
+
+## 🛠 Tecnologias
+
+As seguintes tecnologias foram utilizadas no desenvolvimento da API Rest do projeto:
+
+- **[Java 17](https://www.oracle.com/java)**
+- **[Spring Boot 3](https://spring.io/projects/spring-boot)**
+- **[Spring-security](https://spring.io/blog/2022/02/21/spring-security-without-the-websecurityconfigureradapter)**
+- **[Spring-doc](https://springdoc.org/)**
+- **[Maven](https://maven.apache.org)**
+- **[PostgreSQL](https://www.postgresql.org/docs/14/datatype-numeric.html)**
+- **[Hibernate](https://hibernate.org)**
+- **[Lombok](https://projectlombok.org)**
+- **[JWT](https://jwt.io/)**
+
+**
+
+---
+
+
+## 📝 Licença
+
+Projeto desenvolvido por [Thiago Pessoa]([https://github](https://github.com/thidspessoa?tab=repositories)).
